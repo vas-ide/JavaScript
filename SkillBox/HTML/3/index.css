@@ -1,5 +1,8 @@
 
-
+body {
+    background-color: rgb(51, 39, 26);
+    
+}
 
 /* 
 .colorstyle {
@@ -20,12 +23,38 @@
 
 .add-title {
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 p {
     text-indent: 30px;
+    white-space: wrap;
+    word-spacing: unset;
+    color: white;
 }
 
 a {
     text-decoration: none;
+    text-shadow: 0 3px 3px rgb(121, 82, 158);
+    opacity: 0.7;
+} 
+
+.background-picture{
+    background-image: url(DOK/FullMap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55px center;
+    
+}
+
+.block-display {
+    box-sizing: content-box;
+    display: block;
+    min-width: 400px;
+    min-height: 100px;
+    /* width: 400px;
+    height: 100px; */
+    margin: 20px;
+    padding: 20px;
+    border: 6px solid royalblue;
 }
