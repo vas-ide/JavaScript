@@ -72,12 +72,11 @@ a {
     align-items:center;
     justify-content: space-between; 
     width: 400px;
-
 }
 
 .skillbox {
-    /* margin: 20px 20px 30px 20px; */
-    /* padding: 20px 20px 20px 20px;  */
+    margin: 20px 20px 30px 20px;
+    padding: 20px 20px 20px 20px; 
 }
 
 .downloader {
@@ -95,5 +94,22 @@ a {
     border: 3px solid white;
     display: inline-block;
     vertical-align: top;
-   
 }
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
