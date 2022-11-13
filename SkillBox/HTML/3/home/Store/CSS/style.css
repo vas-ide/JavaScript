@@ -58,7 +58,7 @@ a {
 }
 
 .main-content {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -67,21 +67,33 @@ a {
 }
 
 .cen{
-    align-items: center;
+    margin-right: 100px;
+    display:flex; 
+    align-items:center;
+    justify-content: space-between; 
+    width: 400px;
+
+}
+
+.skillbox {
+    /* margin: 20px 20px 30px 20px; */
+    /* padding: 20px 20px 20px 20px;  */
 }
 
 .downloader {
-    margin: 20px;
     padding: 20px;
     color: white;
     background-color: #2f1ce4;
     border: 3px solid #2f1ce4;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .about {
-    margin: 20px;
     padding: 20px;
     color: white;
     border: 3px solid white;
+    display: inline-block;
+    vertical-align: top;
    
 }
