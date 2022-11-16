@@ -39,13 +39,6 @@ td {
     max-width: 400px;
 }
 
-
-.head-ret {
-    display: flex;
-    justify-content: space-between;
-    width: 80px;
-}
-
 .main-h {
     margin: 100px 0px 0px 0px;
     padding: 0px 0px 0px 100px;

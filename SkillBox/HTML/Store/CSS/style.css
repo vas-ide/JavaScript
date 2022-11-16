@@ -52,6 +52,12 @@ body {
 	font-family: 'Gilroy', sans-serif;
 }
 
+.body-size {
+    width: 1920px;
+    height: 2261px;
+    background-color: #ededed;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -64,6 +70,21 @@ a {
     align-items: center;
     background-color: #222020;
     height: 100vh;
+}
+
+.module-flex {
+    display: flex; 
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    width: 1020px;
+
+}
+
+.module-content {
+    height: 505px;
+    width: 480px;
+    background-color: #ffffff;
 }
 
 .cen{
@@ -100,6 +121,26 @@ a {
     width: 1170px;
     margin: 0 auto;
     padding: 30px 0px 30px 0px;
+}
+
+.head-ret {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.paragraph {
+    font-family: Gilroy, sans-serif;;
+    font-size: 36px;
+    font-weight: 900;
+    color: #3116e9;
+}
+
+.paragraph-add {
+    font-family: Gilroy, sans-serif;;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1d1a1a;
 }
 
 
