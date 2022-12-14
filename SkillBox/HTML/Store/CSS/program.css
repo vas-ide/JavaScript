@@ -101,6 +101,12 @@ td {
     padding: 30px 0px 30px 0px;
 }
 
+.head-program {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
 .main-content {
     display: flex; 
     flex-direction: column;
