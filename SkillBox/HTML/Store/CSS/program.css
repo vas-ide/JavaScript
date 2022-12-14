@@ -132,6 +132,15 @@ caption{
     min-height: 30px;
 }
 
+.follow-modules {
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #2f1ce4;
+}
+
 
 
 
