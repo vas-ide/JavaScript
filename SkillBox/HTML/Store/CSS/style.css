@@ -101,21 +101,29 @@ body {
 }
 
 .digit-position-01 {
-    padding: 0px 5px 5px 0px;
-    margin: 0px 5px 5px 0px;
+    padding: 35px 5px 5px 0px;
+    margin: 35px 5px 5px 0px;
     display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    align-items: center;
-    flex-grow: 4;
-    /* align-content: stretch; */
-    /* flex: 1 0 auto; */
-
+    justify-content: flex-end;
 }
 
 .digit-position-02 {
-    padding: 0px 5px 0px 0px;
-    margin: 0px 5px 0px 0px;
+    padding: 17px 5px 5px 0px;
+    margin: 17px 5px 5px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.digit-position-03 {
+    padding: 17px 5px 5px 0px;
+    margin: 17px 5px 5px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.digit-position-04 {
+    padding: 55px 5px 5px 0px;
+    margin: 55px 5px 5px 0px;
     display: flex;
     justify-content: flex-end;
 }
