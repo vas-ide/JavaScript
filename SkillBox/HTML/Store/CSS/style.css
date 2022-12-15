@@ -1,4 +1,12 @@
 
+
+
+  
+.wave {
+    height: 700px;
+    background-image:-moz-linear-gradient(100);
+}
+
 h1 {
     color: white;
     font-family: "Graphik LCG", sans-serif;
@@ -66,7 +74,6 @@ body {
 
 .module-flex {
     display: flex; 
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     width: 1020px;
@@ -77,7 +84,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 1070px;
+    height: 1340px;
 }
 
 .module-content {
@@ -135,6 +142,9 @@ body {
 .block-more {
     padding: 50px 0px 0px 0px;
     margin: 50px 0px 0px 0px;
+    display: flex;
+    text-align: center;
+
 }
 
 .more {
